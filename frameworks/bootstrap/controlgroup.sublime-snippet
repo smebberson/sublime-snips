@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+<div class="control-group">
+	<label class="control-label" for="${1:name}">${2:label}</label>
+	<div class="controls">
+		<input type="${3:text}" class="${4:input-large}" name="${1:name}">
+	</div>
+</div>${0}
+]]></content>
+	<description>control-group block for a bootstrap form</description>
+	<tabTrigger>bfcg</tabTrigger>
+	<scope>*</scope>
+</snippet>
