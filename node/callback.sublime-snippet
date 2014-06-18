@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+return ${1:callback}($2);$0
+]]></content>
+	<description>return callback();</description>
+	<tabTrigger>cb</tabTrigger>
+	<scope>source.js</scope>
+</snippet>

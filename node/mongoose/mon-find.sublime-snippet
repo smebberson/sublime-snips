@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+${1:model}.find({ $2 }).exec(function (err, result) {
+
+	$0
+				
+});
+]]></content>
+	<description>model.find({})</description>
+	<tabTrigger>mf</tabTrigger>
+	<scope>source.js</scope>
+</snippet>

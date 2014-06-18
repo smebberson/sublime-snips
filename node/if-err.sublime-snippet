@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+if (${2:err}) {
+	return ${1:next}(${2:err});
+}
+]]></content>
+	<description>if (err)</description>
+	<tabTrigger>iferr</tabTrigger>
+	<scope>source.js</scope>
+</snippet>

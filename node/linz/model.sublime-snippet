@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+${1:model} = linz.mongoose.model('${1:model}')${2:;}$0
+]]></content>
+	<description>linz.mongoose.model</description>
+	<tabTrigger>model</tabTrigger>
+	<scope>source.js</scope>
+</snippet>
